@@ -46,12 +46,12 @@
 
         <TextView
             android:id="@+id/text_history"
-            android:layout_width="match_parent"
+            android:layout_width="325dp"
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
             android:layout_centerVertical="true"
-            android:layout_marginStart="3dp"
+            android:layout_marginStart="10dp"
             android:layout_marginTop="176dp"
             android:layout_marginEnd="0dp"
             android:fontFamily="@font/opensans_semibold"
@@ -64,9 +64,9 @@
             android:id="@+id/list_history"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_below="@+id/text_history"
+            android:layout_below="@id/text_history"
             android:layout_marginTop="8dp"
-            android:paddingBottom="30dp" />
+             />
 
     </RelativeLayout>
 
