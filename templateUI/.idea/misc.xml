@@ -3,11 +3,15 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/me-is/OneDrive/Desktop/Univeristy/FIT4003/accessibilityTemplateUI/templateUI/app/src/main/res/drawable/default_rounded_button.xml" value="0.1" />
         <entry key="..\:/Users/me-is/OneDrive/Desktop/Univeristy/FIT4003/accessibilityTemplateUI/templateUI/app/src/main/res/drawable/ic_baseline_settings_24.xml" value="0.1145" />
+        <entry key="..\:/Users/me-is/OneDrive/Desktop/Univeristy/FIT4003/accessibilityTemplateUI/templateUI/app/src/main/res/drawable/progress_bar.xml" value="0.1" />
         <entry key="..\:/Users/me-is/OneDrive/Desktop/Univeristy/FIT4003/accessibilityTemplateUI/templateUI/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/me-is/OneDrive/Desktop/Univeristy/FIT4003/accessibilityTemplateUI/templateUI/app/src/main/res/layout/activity_progress_check.xml" value="0.1" />
         <entry key="..\:/Users/me-is/OneDrive/Desktop/Univeristy/FIT4003/accessibilityTemplateUI/templateUI/app/src/main/res/layout/fragment_explore.xml" value="0.1" />
         <entry key="..\:/Users/me-is/OneDrive/Desktop/Univeristy/FIT4003/accessibilityTemplateUI/templateUI/app/src/main/res/layout/fragment_help.xml" value="0.1" />
         <entry key="..\:/Users/me-is/OneDrive/Desktop/Univeristy/FIT4003/accessibilityTemplateUI/templateUI/app/src/main/res/layout/fragment_home.xml" value="0.264" />
+        <entry key="..\:/Users/me-is/OneDrive/Desktop/Univeristy/FIT4003/accessibilityTemplateUI/templateUI/app/src/main/res/layout/progress_bar_view.xml" value="0.1" />
         <entry key="..\:/Users/me-is/OneDrive/Desktop/Univeristy/FIT4003/accessibilityTemplateUI/templateUI/app/src/main/res/layout/video_list_view.xml" value="0.264" />
         <entry key="..\:/Users/me-is/OneDrive/Desktop/Univeristy/FIT4003/accessibilityTemplateUI/templateUI/app/src/main/res/menu/bottom_nav_menu.xml" value="0.1" />
         <entry key="..\:/Users/me-is/OneDrive/Desktop/Univeristy/FIT4003/templateUI/app/src/main/res/drawable/default_rounded_button.xml" value="0.1" />
