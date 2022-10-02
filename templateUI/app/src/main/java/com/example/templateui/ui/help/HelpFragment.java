@@ -11,11 +11,12 @@ import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
 
 import com.example.templateui.databinding.FragmentHelpBinding;
-import com.example.templateui.ui.help.HelpViewModel;
 
 public class HelpFragment extends Fragment {
 
     private FragmentHelpBinding binding;
+
+
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
@@ -28,6 +29,9 @@ public class HelpFragment extends Fragment {
         final TextView textView = binding.textHelp;
         exploreViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
         return root;
+
+
+
     }
 
     @Override
