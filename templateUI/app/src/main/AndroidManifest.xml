@@ -17,6 +17,15 @@
             android:name=".ProgressCheck"
             android:exported="false" />
         <activity
+            android:name=".ui.help.ExploreVideosManual"
+            android:exported="false" />
+        <activity
+            android:name=".ui.help.ShortcutHistoryManual"
+            android:exported="false" />
+        <activity
+            android:name=".ui.help.VideoUploadManual"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true"
             android:label="@string/app_name">

@@ -5,13 +5,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.help.HelpFragment">
-
+    tools:context=".ui.help.ShortcutHistoryManual">
 
     <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
-        >
+        tools:ignore="MissingConstraints">
+
 
         <RelativeLayout
             android:layout_width="match_parent"
@@ -20,13 +21,13 @@
             android:paddingBottom="20dp">
 
             <TextView
-                android:id="@+id/text_help"
+                android:id="@+id/header"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
                 android:layout_marginEnd="8dp"
                 android:fontFamily="@font/opensans_semibold"
-                android:text="How to use this app?"
+                android:text="How to view shortcut history?"
                 android:textAlignment="center"
                 android:textColor="@color/mint_green_main"
                 android:textSize="20sp"
@@ -44,10 +45,10 @@
                 <!--  Space for video     -->
                 <VideoView
                     android:id="@+id/videoView"
-                    android:layout_width="220dp"
-                    android:layout_height="300dp"
+                    android:layout_width="296dp"
+                    android:layout_height="383dp"
                     android:layout_gravity="center"
-                    android:layout_marginStart="80dp" />
+                    android:layout_marginStart="30dp"/>
 
                 <!--   Header: Can't watch? No problem     -->
                 <TextView
@@ -58,12 +59,12 @@
                     android:layout_alignParentTop="true"
                     android:layout_centerVertical="true"
                     android:layout_marginStart="16dp"
-                    android:layout_marginTop="320dp"
+                    android:layout_marginTop="400dp"
                     android:layout_marginEnd="0dp"
                     android:fontFamily="@font/opensans_semibold"
-                    android:text="Can't watch? No problem!"
+                    android:text="STEPS"
                     android:textColor="@color/mint_green_main"
-                    android:textSize="16sp"
+                    android:textSize="20sp"
                     tools:ignore="HardcodedText" />
 
                 <!-- Grey divider       -->
@@ -99,13 +100,13 @@
                         tools:ignore="HardcodedText" />
 
                     <TextView
-                        android:id="@+id/video_upload"
+                        android:id="@+id/step1"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="20"
                         android:fontFamily="@font/opensans_regular"
                         android:gravity="left"
-                        android:text="How to upload a video?"
+                        android:text="Text for a step 1"
                         android:textColor="@color/black"
                         android:textSize="18sp"
                         tools:ignore="HardcodedText" />
@@ -117,8 +118,7 @@
                     android:layout_width="fill_parent"
                     android:layout_height="2dp"
                     android:layout_below="@id/layout1"
-                    android:background="#ccc8c8"
-                    android:orientation="horizontal">
+                    android:background="#ccc8c8">
 
                 </LinearLayout>
 
@@ -146,13 +146,13 @@
                         tools:ignore="HardcodedText" />
 
                     <TextView
-                        android:id="@+id/shortcut_history"
+                        android:id="@+id/step2"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="20"
                         android:fontFamily="@font/opensans_regular"
                         android:gravity="left"
-                        android:text="How to view shortcut history?"
+                        android:text="Text for a step 2"
                         android:textColor="@color/black"
                         android:textSize="18sp"
                         tools:ignore="HardcodedText" />
@@ -165,8 +165,7 @@
                     android:layout_width="fill_parent"
                     android:layout_height="2dp"
                     android:layout_below="@id/layout2"
-                    android:background="#ccc8c8"
-                    android:orientation="horizontal" />
+                    android:background="#ccc8c8" />
 
                 <!-- Button 3: Explore more videos      -->
                 <LinearLayout
@@ -192,13 +191,13 @@
                         tools:ignore="HardcodedText" />
 
                     <TextView
-                        android:id="@+id/explore_videos"
+                        android:id="@+id/step3"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="20"
                         android:fontFamily="@font/opensans_regular"
                         android:gravity="left"
-                        android:text="How to explore more videos?"
+                        android:text="Text for a step 3"
                         android:textColor="@color/black"
                         android:textSize="18sp"
                         tools:ignore="HardcodedText" />
@@ -209,8 +208,7 @@
                     android:layout_width="fill_parent"
                     android:layout_height="2dp"
                     android:layout_below="@id/layout3"
-                    android:background="#ccc8c8"
-                    android:orientation="horizontal" />
+                    android:background="#ccc8c8" />
 
 
             </RelativeLayout>
@@ -227,7 +225,6 @@
                 app:layout_constraintRight_toRightOf="parent"
                 app:menu="@menu/bottom_nav_menu" />
         </RelativeLayout>
-
     </ScrollView>
 
 
